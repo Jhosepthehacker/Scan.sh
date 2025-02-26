@@ -4,6 +4,11 @@
 
 address=192.168.1.100
 
+#Título con echo
+
+echo "------------------------------------------------------"
+     "                Escaneo de nmap con guardar           "
+     "------------------------------------------------------"
 #Mostrar con echo el contenido 
 
 echo "Hola a todos estoy empezando a aprender bash por mi cuenta probablemente no sea tan impresionante el programa pero espero que les gusten :)"

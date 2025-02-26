@@ -7,7 +7,7 @@ address=192.168.1.100
 #Título con echo
 
 echo "------------------------------------------------------"
-echo "                Escaneo de nmap con guardar           "
+echo "             Escaneo de nmap con guardar              "
 echo "------------------------------------------------------"
 #Mostrar con echo el contenido 
 

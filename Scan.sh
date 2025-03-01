@@ -25,6 +25,25 @@ read -p "Introducir dirección IP: " ip
 
 echo ""
 
+echo "Si usted va a colocar sí coloque con acento para que lo acepte"
+
+read -p "¿Quieres continuar con esta operación?: " respuesta 
+
+#Comprobando la respuesta del usuario 
+
+if [[ "$respuesta" == "sí" ]]; then
+
+echo "Continuando con la operación...."
+
+else
+    echo "Operación cancelada"
+    echo "Espero que haya disfrutado mi progama :) ^_^"
+  exit 1
+
+fi
+
+echo ""
+
 #Escaneo de nmap de toda la red 
 
 scan=$(nmap "$ip/24")

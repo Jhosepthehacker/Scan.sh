@@ -21,7 +21,7 @@ fi
 
 echo ""
 
-read -p "¿instalar con apt o pkg?: " apt
+read -p "¿instalar con apt para usar root o pkg sin usar root?: " apt
 
 #Comprobando la respuesta del usuario
 

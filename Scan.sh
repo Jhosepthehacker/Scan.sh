@@ -36,7 +36,7 @@ if [[ "$respuesta" == "sí" ]]; then
 echo "Continuando con la operación...."
 
 else
-    echo "Operación cancelada"
+    echo -e "\e[31m Operación cancelada"
     echo "Espero que haya disfrutado mi progama :) ^_^"
   exit 1
 

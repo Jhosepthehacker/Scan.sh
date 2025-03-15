@@ -2,7 +2,7 @@
 
 #Variable
 
-address=192.168.1.100
+address="192.168.1.100"
 
 #Título con echo
 

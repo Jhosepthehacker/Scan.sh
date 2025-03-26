@@ -7,7 +7,9 @@
 #  ¿Cómo instalar?
 
 <pre>
+  ```bash
   git clone https://github.com/Jhosepthehacker/Scan.sh
   cd Scan.sh
   bash Scan.sh
+  ```bash
 </pre>
